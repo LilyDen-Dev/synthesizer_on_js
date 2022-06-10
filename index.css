@@ -1,0 +1,27 @@
+body {
+
+}
+
+.keys {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.key {
+    border: 4px solid black;
+    margin: 8px;
+    padding: 21px 16px;
+    transition: all 0.2s;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 5px black;
+    color: white;
+    font-size: 21px;
+}
+.key.playing {
+    transform: scale(1.1);
+    border-color: green;
+    box-shadow: 0 0 10px green;
+}
